@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "description": "A sports information portal built with Express and Pug",
   "main": "app.js",
-  "scripts": {
-    "start": "node app.js"
-  },
+ "scripts": {
+  "start": "react-scripts start",
+  "build": "react-scripts build"
+},
   "dependencies": {
     "cookie-parser": "^1.4.6",
     "express": "^4.18.2",
