@@ -1,0 +1,24 @@
+extends layout
+
+block content
+  h1= title
+  p.lead Welcome to #{title}, your one-stop destination for all things sports!
+  .row.mt-4
+    .col-md-4
+      .card
+        .card-body
+          h5.card-title Latest Sports News
+          p.card-text Check out the latest updates from the world of sports.
+          a.btn.btn-primary(href='/news-events') Read More
+    .col-md-4
+      .card
+        .card-body
+          h5.card-title Player Profiles
+          p.card-text Explore detailed statistics of your favorite athletes.
+          a.btn.btn-primary(href='/players') View Players
+    .col-md-4
+      .card
+        .card-body
+          h5.card-title Sports Categories
+          p.card-text Browse through different sports categories.
+          a.btn.btn-primary(href='/sports') Explore Sports

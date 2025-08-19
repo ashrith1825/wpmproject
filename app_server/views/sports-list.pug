@@ -1,0 +1,12 @@
+extends layout
+
+block content
+  h1= title
+  .row.mt-4
+    each sport in sports
+      .col-md-4.mb-4
+        .card
+          .card-body
+            h5.card-title= sport.name
+            p.card-text= sport.description
+            a.btn.btn-primary(href='#') Learn More
